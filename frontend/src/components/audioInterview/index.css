@@ -1,0 +1,148 @@
+.failure-view{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-view{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.loading-view > p{
+    margin-block: 0.8rem;
+}
+
+.failure-image{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+.audio-interview-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    gap: 3rem;
+    padding: 1rem;
+    
+}
+
+
+.ai-question-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    text-align: center;
+}
+
+.ai-question-container > textarea{
+    width: 100%;
+    margin-block: 1rem;
+}
+
+.robot-span{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    background-color: #4F46E5;
+    padding: 0.5rem;
+
+}
+
+.robot-icon{
+    font-size: 28px;
+    color: white;
+}
+
+
+.mic-btn{
+    height: 100px;
+    width: 100px;
+    border: 0;
+    outline: none;
+    border-radius: 50%;
+    background-color: #4F46E5;
+    position: relative;
+    cursor: pointer;
+    
+
+
+}
+
+.interview-container > .mic-btn > span{
+    height: 100%;
+    width: 100%;
+}
+
+.microphone-style{
+    font-size: 40px;
+    color: white;
+}
+
+.mic-btn::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #8f8be6;
+    height: 120px;
+    width: 120px;
+    z-index: -1;
+    border-radius: 50%;
+    transition: 0.3s;
+
+}
+
+.mic-btn::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 150px;
+    width: 150px;
+    background-color: #bdbbf1;
+    z-index: -2;
+    border-radius: 50%;
+    transition: 0.3s;
+    
+}
+
+.audio-answer-section{
+    
+    text-align: center;
+    
+    width: 100%;   
+    padding: 0.5rem;
+}
+
+.start-stop{
+    background-color: #4F46E5;
+    height: 40px;
+    width: 90px;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.text-box{
+    min-height: 100px;
+    width: 100%;
+    field-sizing: content;
+    border: 1px solid grey;
+    padding: 0.8rem;
+}
+

@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment Variables (Secrets)
+.env
+*.env
+
+# Uploaded Files
+backend/uploads/
+uploads/
+
+# Build outputs & logs
+dist/
+dist-ssr/
+*.log

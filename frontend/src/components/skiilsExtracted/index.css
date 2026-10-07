@@ -1,0 +1,261 @@
+.skills-container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-block: 0.8rem;
+}
+
+.name-exp{
+    background-color: #4F46E5;
+    padding: 0.8rem;
+    border-radius: 5px;
+    width: 80%;
+}
+
+
+
+.name-exp > p{
+    font-size: 1rem;
+    color: white;
+    margin-block: 0.8rem;
+}
+
+.extracted-head{
+    text-align: center; 
+    font-size: 1.2rem;
+    margin-block: 0.9rem; 
+}
+
+.roles-exp{
+    background-color: #4F46E5;
+    padding: 0.8rem;
+    border-radius: 5px;  
+    width: 80%;  
+}
+
+.roles-exp-head{
+    color: white;
+    text-align: center;
+    margin-block: 0.9rem;
+    font-size: 1.2rem;
+}
+
+
+.roles-exp > ul{
+    list-style-type: none;
+}
+
+.roles-exp > ul > li > h1{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-block: 0.8rem;
+}
+
+
+
+.roles-exp > ul > li > p{
+    color: #ffffff;
+}
+
+.roles-exp > ul >li{
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    }
+
+.roles-exp > ul > li > h1{
+    color: black;
+}
+
+.roles-exp > ul > li > p{
+    color: black;
+}
+
+.roles-exp > ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+}
+
+.skills{
+    background-color: #4F46E5;
+    width: 80%;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 10px;
+}
+
+.details-container{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 0.8rem;
+}
+
+.details-container li{
+    list-style-type: none;
+    margin-block: 0.6rem;
+}
+
+.details-container > h1{
+    font-size: 1.3rem;
+    overflow-wrap: anywhere;
+    word-break: normal;
+
+}
+
+
+.suitable-roles{
+    background-color: #4F46E5;
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+.suitable-roles > ul{
+    list-style-type: none;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.suitable-roles > ul > h1{
+        color: white;
+        font-size: 1.4rem;
+        margin-block: 1rem;
+}
+
+
+
+
+.suitable-roles > ul > li{
+        background-color: white;
+        border-radius: 10px;
+        padding: 0.6rem;
+}
+
+.suitable-roles > ul > li > div > p{
+    margin-block: 0.7rem;
+}
+
+
+.score-container{
+    background-color: #4F46E5;
+    border-radius: 50%;
+    padding: 0.6rem;   
+    width: 50%;
+}
+
+.score{
+    color: white;
+    text-align: center;
+}
+
+
+.interview-btn-container{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin-block: 0.7rem;
+}
+
+.btn-interview{
+        outline: none;
+        border-radius: 7px;
+        height: 40px;
+        width: 100%;
+        border: none;
+        background-color: #4F46E5;
+        color: white;
+}
+
+
+@media (min-width:768px) and (max-width: 1800px){
+    .roles-exp{
+        width: 80%;
+    }
+    .roles-exp > ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .name-exp > p{
+    font-size: 1.2rem;
+    color: white;
+    margin-block: 0.8rem;
+    }
+
+    .roles-exp-head{
+    color: white;
+    text-align: center;
+    margin-block: 0.9rem;
+    font-size: 1.4rem;
+    }
+    .extracted-head{
+    text-align: center; 
+    font-size: 1.4rem;
+    margin-block: 0.9rem; 
+    }
+
+    .skills{
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .suitable-roles{
+        width: 80%;
+    }
+
+    .suitable-roles > ul{
+        list-style-type: none;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .suitable-roles > ul > h1{
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .suitable-roles > ul > li{
+        background-color: white;
+        display: flex;
+    }
+
+
+    .score-container{
+    background-color: #4F46E5;
+    border-radius: 50%;
+    padding: 0.6rem;   
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .interview-btn-container{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin-block: 0.7rem;
+    }
+    .btn-interview{
+        outline: none;
+        border-radius: 7px;
+        height: 40px;
+        width: 40%;
+        border: none;
+        background-color: #4F46E5;
+        color: white;
+    }
+
+
+}

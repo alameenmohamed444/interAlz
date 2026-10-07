@@ -1,0 +1,127 @@
+.upload-container{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0.8rem;
+
+
+}
+
+.loader{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader > p{
+    margin-block: 0.8rem;
+}
+
+.text-container{
+    padding: 0.5rem;
+}
+
+.text-container > h1{
+    font-size: 1.3rem;
+    color: black;
+}
+
+.text-container > p{
+    font-size: 0.8rem;
+    color: grey;
+    margin-block: 0.5rem;
+}
+
+
+
+.upload-box{
+    padding: 1rem;
+    margin: 0.8rem auto;
+    height:auto;
+}
+
+.upload-file{
+    border: 1px dashed grey;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 0.8rem;
+    background-color: white;
+    transition:background-color 0.3s ease;
+}
+
+
+
+
+.file-input{
+    display: none;
+}
+
+#uploadIcon{
+    font-size: 2rem;
+}
+
+.upload-label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.upload-file > p{
+    margin-block: 1rem;
+}
+
+
+
+.image-selected-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.image-content-container{
+    display: flex;
+
+}
+
+.image-show{
+    height: 110px;
+    width: 90px;
+    overflow-x: hidden;
+}
+
+
+
+.cancel-show{
+    border-radius: 50%;
+    padding: 0.2rem;
+    font-size: 0.6rem;
+    background-color: red;
+    color: white;
+    align-self: flex-start;
+}
+
+
+
+.upload-btn-container > button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 8px;
+}
+.upload-file:hover{
+        background-color: whitesmoke;
+    }
+
+@media screen and (min-width: 768px) and (max-width: 1110px){
+    
+}
